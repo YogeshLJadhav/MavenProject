@@ -1,0 +1,50 @@
+common issue in payment gateway
+
+Payment gateway timeout or delays.
+Duplicate charges or multiple transactions for the same payment.
+Incorrect total amount displayed or processed.
+Missing or delayed payment confirmation.
+Refund processing errors.
+
+pencil test cases
+Check the length of a pencil, strength of the outer wooden body,
+2. Check thickness and resilience of graphite material (one type of crystalline carbon black in color)
+3. Check readability after writing text using pencil
+4. Check if written on different types of paper, cloth, or wood.
+5. Check how many meters can be written with the available graphite material in single pencil.
+6. Check the written text on paper is erasable with a normal rubber eraser.
+7. Check if a normal sharpener can sharpen the pencil or not
+8. Check if you can write after graphite is dipped in water, oil or dust.
+9. Check if the name of the company written has correct spelling printed on pencil or not .
+10. Check if graphite are not broken already or brittle.
+
+whatsapp test cases
+WhatsApp are mobile application to communicate between two friends or more group of people
+by sharing text, image, video or audio files.
+WhatsApp application should able to quickly download in mobile
+WhatsApp numbers should be present in Contact List to send messages to that number from mobile via
+whatsapp.
+The message received should be from whatsapp number may not be present in contact list of mobile.
+WhatsApp should allow typing text
+WhatsApp should allow attaching image(s)
+WhatsApp should allow video and audio file(s)
+WhatsApp should able to send or receive text, image, video or audio files.
+The received files should able to download to the mobile’s storage and viewer should able to read or view
+these files
+WhatsApp should have notification of receipt of new files, give status of time of receipt a nd provide status
+of read files to the sender.
+WhatsApp web application should be accessible on scanning the image using registered mobile on which
+WhatsApp application has been installed.
+
+google drive testcases
+Google Drive allow you to save, share and exchange files or documents with click of a button.
+In order to access Google Drive, you should have Google account
+User should able to upload file to Google Drive and should store the file instantly
+User should able to share file to particular person by adding their email addresses
+The sharable link of file on Drive should able to be sent via email
+On clicking shared link, the file should able to open in read only format The
+shared file should able to get downloaded.
+
+
+
+

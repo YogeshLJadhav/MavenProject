@@ -1,0 +1,61 @@
+1)  Pseudocode Development - Task: Write a detailed pseudocode for a simple  program to enter two numbers and print a greater number and if they are equal/same print accordingly
+START
+  INPUT number1
+  INPUT number2
+
+  IF number1 > number2 THEN
+    PRINT "number1 is greater"
+  ELSE IF number1 < number2 THEN
+    PRINT "number2 is greater"
+  ELSE
+    PRINT "Both numbers are equal"
+  END IF
+END
+
+
+2) Pseudocode Development - Task: positive,negative or zero  Write a detailed pseudocode for a simple program to check if the number is
+
+3) Pseudocode Development - Task: Write a detailed pseudocode for a simple program to check if the number entered is even or not 
+4) Pseudocode Development - Task: Write a detailed pseudocode for a simple program that takes a number as input, calculates the square if it's even or the cube if it's odd, and then outputs the result. Incorporate conditional and looping construct.
+5)Flowchart Creation - Design a flowchart that outlines the logic for a user login process. It should include conditional paths for successful and unsuccessful login attempts, and a loop that allows a user three attempts before locking the account. 
+6) Flowchart Creation - Design a flowchart that outlines the logic for question 1 to question 4
+7)Write a Psedocode to Write a program calculates an employee's Dearness Allowance (DA), House Rent Allowance (HRA), and gross salary. It takes into account the employee's basic salary and metro city status. Dearness Allowance (DA) should be 40% of his basic salary if he is from the metro city if he is from a nonmetro city then Dearness Allowance (DA) should be 30%, HRA should be 15% of his basic salary. The program should ensure that the 900rs should be considered a provident fund for every employee. Medical allowances would be Rs580 for Every employee should be deducted from his basic salary.
+8)Create  flow chart for above question number 7 
+9)Write Psedocode for a program to find factorial and  print fibonacci series of a number where these two would be taken as two different functions 
+10)Create a flowchart for question numner 9 
+
+
+
+
+Selection Sort :
+    
+    void selectionSortAscending(int arr[], int n) {
+    int i, j, maxIndex, temp;
+    
+    for (i = n - 1; i > 0; i--) 
+    {
+            // Assume the current element is the maximum
+        maxIndex = i;  
+        // Search for the maximum element in the unsorted part
+        for (j = 0; j < i; j++) 
+        {
+            if (arr[j] > arr[maxIndex]) 
+            {
+                maxIndex = j;
+            }
+        }
+        // Swap the found maximum element with the last unsorted element
+        temp = arr[maxIndex];
+        arr[maxIndex] = arr[i];
+        arr[i] = temp;
+        
+        // Print the current state of the array after each pass
+        printf("Array after Pass %d: ", n - i);
+        for (int k = 0; k < n; k++) {
+            printf("%d ", arr[k]);
+        }
+        printf("\n");
+    }
+}
+
+Array before sorting: 50 100 150 25 75 85 
